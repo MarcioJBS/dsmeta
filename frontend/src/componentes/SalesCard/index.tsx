@@ -17,6 +17,8 @@ function SalesCard() {
                     <DatePicker
                         selected={minDate}
                         onChange={(date: Date) => setMinDate(date)}
+                        selected={new Date()}
+                        onChange={(date: Date) => { }}
                         className="dsmeta-form-control"
                         dateFormat="dd/MM/yyyy"
                     />
@@ -28,6 +30,12 @@ function SalesCard() {
                         className="dsmeta-form-control"
                         dateFormat="dd/MM/yyyy"
                     />
+                    <input className="dsmeta-form-control" type="text" />
+                </div>
+                <div className="dsmeta-form-control-container">
+                    <input className="dsmeta-form-control" type="text" />
+                    993e21e51f52224503263384772ff6df819c25b2
+                    c8f39075485c81eb6fa6e3eba0f17e29b2d11b88
                 </div>
             </div>
 
@@ -93,4 +101,4 @@ function SalesCard() {
     )
 }
 
-export default SalesCard;
+export default SalesCard
